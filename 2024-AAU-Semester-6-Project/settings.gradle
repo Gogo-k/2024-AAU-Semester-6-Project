@@ -1,0 +1,4 @@
+include ':app'
+include ':models'
+include ':tools:make-keyboard-text'
+include ':tools:make-emoji-keys'

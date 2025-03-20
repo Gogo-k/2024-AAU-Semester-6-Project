@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9900"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:minHeight="70sp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="47dp"
+            android:layout_height="45dp"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:background="@drawable/btn_keyboard_key_functional_lxx_light_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/speaker_icon"
+            tools:src="@drawable/speaker_icon" />
+
+
+        <TextView
+            android:id="@+id/orangebox"
+            style="@android:style/Widget.DeviceDefault.Light.TextView"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="2"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:height="30dp"
+            android:clickable="true"
+            android:gravity="left|center"
+            android:maxHeight="50dp"
+            android:minHeight="30dp"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="18dp"
+            android:layout_weight="0"
+            android:background="@drawable/btn_keyboard_key_action_normal_lxx_grey"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="bottom"
+            android:rotationX="180"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrow" />
+
+    </LinearLayout>
+
+</LinearLayout>
